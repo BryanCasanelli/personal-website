@@ -6,5 +6,7 @@
 </script>
 
 <ParaglideJS {i18n}>
-	{@render children()}
+	<div class="min-h-screen bg-surface-600 text-white">
+		{@render children()}
+	</div>
 </ParaglideJS>
